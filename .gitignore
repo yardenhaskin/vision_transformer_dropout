@@ -1,8 +1,8 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
+#ignore all kind of files
+*
+#except py files
+!*.py
 # C extensions
 *.so
 
