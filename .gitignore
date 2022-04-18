@@ -3,6 +3,7 @@
 *
 #except py files
 !*.py
+!vision-transformers-cifar10
 # C extensions
 *.so
 
