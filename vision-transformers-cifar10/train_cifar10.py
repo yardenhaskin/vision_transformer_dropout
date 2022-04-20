@@ -58,7 +58,8 @@ if args.amp:
 wandb.init(project="cifar10-challange",
            name=watermark)
 wandb.config.update(args)
-
+wandb.init(settings=wandb.Settings(start_method="fork"))
+#wandb.init(settings=wandb.Settings(start_method="thread"))
 if args.aug:
     import albumentations
 bs = int(args.bs)

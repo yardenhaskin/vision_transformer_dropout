@@ -2,8 +2,8 @@
 #ignore all kind of files
 *
 #except py files
-!*.py
-!vision-transformers-cifar10
+#!*.py
+#!vision-transformers-cifar10
 # C extensions
 *.so
 
